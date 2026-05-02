@@ -1354,7 +1354,10 @@ a {
   font-size: 54px;
 }
 .pshowcase-body {
-  padding: 26px;
+  padding-top: 26px;
+  padding-bottom: 32px;
+  padding-left: 20px; 
+  padding-right: 20px;
 }
 .pshowcase-name {
   font-family: var(--font-display);
@@ -1579,7 +1582,7 @@ a {
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
-  pointer-events: none;
+  pointer-events: none !important;
 }
 .cta-content {
   position: relative;
@@ -1975,3 +1978,17 @@ a {
     height: 32px;
   }
 }
+
+
+/* ============================================
+   CRITICAL FIX: MAKE PROJECT LINKS CLICKABLE
+   ============================================ */
+
+/* Ensure pseudo-elements don't block clicks */
+.proj-card::before,
+.proj-card::after,
+.pshowcase-card::before,
+.pshowcase-card::after {
+  pointer-events: none !important;
+}
+
