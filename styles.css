@@ -1161,6 +1161,7 @@ a {
   margin-bottom: 16px;
   display: -webkit-box;
   -webkit-line-clamp: 3;
+  line-clamp: 3;
   -webkit-box-orient: vertical;
   overflow: hidden;
 }
@@ -1239,6 +1240,7 @@ a {
 .blog-featured-body .blog-excerpt {
   font-size: 15px;
   -webkit-line-clamp: 4;
+  line-clamp: 4;
 }
 
 /* ═══════════════════════════════════════════════════════════
