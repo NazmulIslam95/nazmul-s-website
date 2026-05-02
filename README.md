@@ -7,9 +7,7 @@ A dark-themed, fully responsive personal portfolio website for **Nazmul Islam**,
 **Nazmul Islam**
 - 📧 ni.tamim95@yahoo.com
 - 📱 +880 174 887 2670
-- 📍 Dakhinkhan, Dhaka, Bangladesh
-- 🐙 [github.com/N-Tamim95](https://github.com/N-Tamim95)
-
+- 📍 Uttarkhan, Dhaka, Bangladesh
 ---
 
 ## 📄 License
